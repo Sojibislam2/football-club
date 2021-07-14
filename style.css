@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* start main  */
 
 .section-start{
     background-color: blue;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 86px;
-}
-.head-section{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 20px;
+       padding-bottom: 86px;
+       display: flex;
+       padding-left: 40px;
+    
 }
 
 .font-size h1{
@@ -19,18 +20,15 @@
     margin-top: 121px;
 }
 .font-size:hover button{
-transform: translate(200px);
-}
+    transform: translate(100px);
+    }
 
 .head-image{
     width: 556px;
     height: 438px;
     margin-top: 67px;
-}
-
-body{
-    font-family: 'Poppins', sans-serif;
-}
+    padding-left: 40px;
+ }
 
 .player-list{
     display: grid;
@@ -71,5 +69,15 @@ button{
 }
 
 /* media quaries */
+@media (max-width: 700px) {
+    .player-list{
+        display: block;
+        flex-direction: column;
+    }
+    .section-start{
+        display: block;
+        flex-direction: column;
+    }
+}
 
 
