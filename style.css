@@ -10,7 +10,7 @@ body{
     background-color: blue;
        padding-bottom: 86px;
        display: flex;
-       padding-left: 40px;
+       padding-left: 50px;
     
 }
 
@@ -27,7 +27,7 @@ body{
     width: 556px;
     height: 438px;
     margin-top: 67px;
-    padding-left: 40px;
+    padding-left: 100px;
  }
 
 .player-list{
