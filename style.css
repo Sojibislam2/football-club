@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* icons */
 
-
-/* header style */
+/* start main  */
 
 .section-start{
     background-color: blue;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 86px;
 }
-.navi-style{
+.head-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0 20px;
 }
+
 .font-size h1{
     font-weight:700;
     color: white;
@@ -22,37 +22,16 @@
 transform: translate(200px);
 }
 
-.list-items{
-    display: flex;
-}
-nav ul{
-    list-style: none;
-    display: flex;}
-nav li{
-    margin: 20px 20px;
-    font-size: 20px;
-    color: white;
-    
-}
-nav ul button{
-    justify-content: space-between;
-}
 .head-image{
     width: 556px;
     height: 438px;
     margin-top: 67px;
 }
-.head-section{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 20px;
-}
-/* header end */
 
 body{
     font-family: 'Poppins', sans-serif;
 }
-/* start main */
+
 .player-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
